@@ -4,8 +4,8 @@ const helpers = require('./helpers')
 AWS.config.update({ region: 'us-east-1' });
 
 const ec2 = new AWS.EC2();
-const sgName = 'hamster_sg2'
-const keyName = 'hamster_key2'
+const sgName = 'hamster_sg3'
+const keyName = 'hamster_key3'
 
 // Do all the things together
 createSecurityGroup(sgName)
