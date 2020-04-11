@@ -5,7 +5,8 @@ AWS.config.update({ region: 'us-east-1' });
 
 const s3 = new AWS.S3();
 
-createBucket(`hamster-bucket-${uuid.v1()}`)
+// createBucket(`hamster-bucket-${uuid.v1()}`)
+createBucket('bkt-100320202339-brz')
   .then((data) => console.log(data))
 
 function createBucket(bucketName) {
