@@ -48,7 +48,7 @@
     "ssh-exec": "2.0.0",
     "stream-buffers": "3.0.2",
     "superagent": "5.1.1",
-    "svg-inline-loader": "0.8.0"
+    "svg-inline-loader": "0.8.2"
   },
   "devDependencies": {
     "@babel/core": "7.7.4",
@@ -67,6 +67,6 @@
     "style-loader": "1.0.0",
     "uglifyjs-webpack-plugin": "2.2.0",
     "webpack": "4.41.5",
-    "webpack-cli": "3.3.10"
+    "webpack-cli": "3.3.12"
   }
 }
